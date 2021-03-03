@@ -15,7 +15,7 @@ import {
 function App() {
   //// ========TOKEN
   const chainId = ChainId.MAINNET;
-  const tokenAddress = "0x6B175474E89094C44Da98b954EedeAC495271d0F"; // must be checksummed
+  const tokenAddress = "0x6B175474E89094C44Da98b954EedeAC495271d0F"; // must be checksummed ok
   const decimals = 18;
 
   const DAI = new Token(
